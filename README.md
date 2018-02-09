@@ -12,4 +12,4 @@ these algorithms are:
 the end of the maze (represented by E) or a number which represents the number of steps that can be taken 
 starting from this cell.
 
--If the maze is a 3D maze it can also have an up ladder (represented by A) and a down ladder (represented by D)
+- If the maze is a 3D maze it can also have an up ladder (represented by A) and a down ladder (represented by D)
