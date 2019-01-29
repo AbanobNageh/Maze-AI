@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MazeMain",
+            "request": "launch",
+            "mainClass": "main.MazeMain",
+            "projectName": "Maze AI",
+            "console": "externalTerminal"
+        }
+    ]
+}
