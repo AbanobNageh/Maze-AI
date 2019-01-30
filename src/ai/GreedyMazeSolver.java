@@ -36,10 +36,10 @@ public class GreedyMazeSolver {
 		
 		for (int i = 0; i < this.mazeSolution.size(); i++){
 			if (i + 1 == this.mazeSolution.size()){
-				System.out.print(this.mazeSolution.get(i).toString() + " " + this.mazeSolution.get(i).getLocation() + " " + this.mazeSolution.get(i).getTotalCost());
+				System.out.println(this.mazeSolution.get(i).toString() + " " + this.mazeSolution.get(i).getLocation() + " " + this.mazeSolution.get(i).getTotalCost());
 			}
 			else{
-				System.out.print(this.mazeSolution.get(i).toString() + " " + this.mazeSolution.get(i).getLocation() + " " + this.mazeSolution.get(i).getTotalCost() + " --> ");
+				System.out.println(this.mazeSolution.get(i).toString() + " " + this.mazeSolution.get(i).getLocation() + " " + this.mazeSolution.get(i).getTotalCost() + " --> ");
 			}
 			
 		}

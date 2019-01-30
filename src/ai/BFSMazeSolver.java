@@ -37,10 +37,10 @@ public class BFSMazeSolver {
 		
 		for (int i = 0; i < this.mazeSolution.size(); i++){
 			if (i + 1 == this.mazeSolution.size()){
-				System.out.print(this.mazeSolution.get(i).toString() + " " + this.mazeSolution.get(i).getLocation());
+				System.out.println(this.mazeSolution.get(i).toString() + " " + this.mazeSolution.get(i).getLocation());
 			}
 			else{
-				System.out.print(this.mazeSolution.get(i).toString() + " " + this.mazeSolution.get(i).getLocation() + "--> ");
+				System.out.println(this.mazeSolution.get(i).toString() + " " + this.mazeSolution.get(i).getLocation() + "--> ");
 			}
 			
 		}
