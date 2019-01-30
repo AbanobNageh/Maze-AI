@@ -1,5 +1,8 @@
+# Maze AI
+
 A project that can use several different algorithms to solve a maze.
 these algorithms are:
+
 1. DFS
 2. BFS
 3. UCS
